@@ -3,6 +3,12 @@ class Solution:
         prev = None
         current = head
         
+        if not head:
+            return None
+        
+        if head.next is None:
+            return head
+        
         while current:
             next_node = current.next
             current.next = prev
