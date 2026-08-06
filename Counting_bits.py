@@ -8,3 +8,5 @@ class Solution:
                 offset = i
             dp[i] = 1 + dp[i - offset]
         return dp
+    
+    
