@@ -1,4 +1,4 @@
-class solution:
+class Solution:
     def reverseBits(self, n: int) -> int:
         res = 0
         
@@ -9,5 +9,4 @@ class solution:
             bit = (n >> i) & 1
             res = res | (bit << (31 - i))
         return res
-    
     
