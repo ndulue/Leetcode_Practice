@@ -18,6 +18,7 @@ class Solution:
                 sumdict[s] += 1
             else:
                 sumdict[s] = 1
+                
         return count
     
     
